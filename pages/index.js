@@ -1,9 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Home from "../components/home";
+import Navbar from "../components/Navbar";
+import About from "../components/about";
+import Contact from "../components/contact";
 
-function tinkers() {
-  return <div>Welcome to Next.js!</div>
-}
 
-export default tinkers
+
+
+const HomePage = () => {
+  return (
+    <div>
+      <Navbar/>
+      <Home />
+      <About/>
+      <Contact/>
+    </div>
+  );
+};
+
+export default HomePage;

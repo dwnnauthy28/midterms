@@ -1,15 +1,16 @@
 
 import styles from "./home.module.css";
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
 return (
     
     <div className={styles.container}style={{ backgroundImage: "url(/image1.png)" }}>
         <div className={styles.contact}>
-            <a href="http://youtube.com">Contact us</a></div>
+            <a href="">Contact us</a></div>
         <div className={styles.about}>
-            <a href="http://gmail.com"></a> About us</div>
+            <a href="">About us</a></div>
+
 
         <div className={styles.text}>
             <h1>Find over 10 thousand nature books in Tinker.</h1>
